@@ -1,0 +1,76 @@
+body {
+    font-family: 'Sniglet', cursive;
+}
+
+section {
+    margin: auto;
+    display: grid;
+    min-width: 50%;
+    justify-content: center;
+    grid-template-rows: 25rem 20rem auto;
+}
+
+.container {
+    padding: 1rem;
+    z-index: 5;
+    background: white;
+    margin: 1rem;
+    color: black;
+    display: inline-block;
+}
+
+.logo-container, .details, .social {
+    text-align: center;
+}
+
+.logo {
+    border-radius: 40rem;
+    width: 70%;
+    margin: 1rem;
+}
+
+.social > .container {
+    display: inline-block;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0;
+}
+
+.social-icon {
+    color: white;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.fa-youtube, .fa-twitch, .fa-instagram, .fa-facebook, .fa-twitter {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-twitch:hover {
+    color: #6441A4;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
