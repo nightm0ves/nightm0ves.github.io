@@ -7,7 +7,7 @@ section {
     display: grid;
     min-width: 50%;
     justify-content: center;
-    grid-template-rows: 25rem 20rem auto;
+    grid-template-rows: 50% 25% auto;
 }
 
 .container {
@@ -17,6 +17,9 @@ section {
     margin: 1rem;
     color: black;
     display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 28px;
 }
 
 .logo-container, .details, .social {
@@ -25,7 +28,6 @@ section {
 
 .logo {
     border-radius: 40rem;
-    width: 70%;
     margin: 1rem;
 }
 
