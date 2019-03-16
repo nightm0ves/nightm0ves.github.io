@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Singlet;
+    font-display: auto;
+    src: local('Sniglet', cursive), url(https://fonts.googleapis.com/css?family=Sniglet);
+}
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -10,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Sniglet', cursive;
+    font-family: Sniglet;
 }
 
 html, body {
